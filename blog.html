@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Blog</title>
+    <link href="style.css" rel="stylesheet" />
+    <link rel="icon" href="imageshomepage/icon.png">
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+</head>
+<style>
+body{
+    background-color: #cfddea;
+}
+.left-center {
+  position: absolute;
+  top: 29%;
+  left: 5%;
+}
+.left-center-p{
+    position: absolute;
+  top: 44%;
+  left: 5%;
+}
+.left-center-b{
+    position: absolute;
+  top: 55%;
+  left: 5%;
+  font-size: 16px;
+  background-color: white; 
+  color: black; 
+  border: 2px solid #f44336;
+}
+.left-center-b:hover {
+  background-color: #f44336;
+  color: white;
+}
+.blog-main{
+    position: absolute;
+  top: 82.2%;
+  left: 15%;
+    width: 1000px;
+    height: 80%;
+    background-color: #b45c3d;
+}
+
+.Tile-blog{
+  position: absolute;
+  top: 75%;
+  color: white;
+  background-color: black;
+  width: 100%;
+
+
+}
+.column {
+  float: left;
+  width: 33.33%;
+  padding: 5px;
+}
+
+/* Clearfix (clear floats) */
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  transition: 0.3s;
+  width: 40%;
+  position: absolute;
+  top: 10%;
+  left: 5%;
+}
+.card2 {
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  transition: 0.3s;
+  width: 40%;
+  position: absolute;
+  top: 10%;
+  left: 55%;
+  background-color: white;
+}
+
+.card:hover {
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}
+.card2:hover {
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}
+
+.container {
+  padding: 2px 10px;
+}
+.writer{
+    font-size: large;
+}
+</style>
+<body>
+ 
+    <nav class="navbar navbar-expand-lg bg-body-tertiary navbar fixed-top bg-body-tertiary">
+        <div class="container-fluid">
+          
+          <a class="navbar-brand" href="index.html"><img src="imageshomepage/building.svg" height="50px" alt="icon" /></a>
+          <h6>Gk's</h6>
+          <a class="navbar-brand" href="index.html" style="padding-left: 5px;"> Koundinya Constructions</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div  class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="aboutus.html">About us </a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="gallery.html">Gallery </a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="portfolio.html">Construction portfolio </a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="blog.html">Blog</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  Products
+                </a>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href= "product.html#TILEADHESIVES"  >TILE ADHESIVES</a> </li>
+                  <li><a class="dropdown-item" href="product.html#READYMIX"> READY-MIX PLASTERS </a></li>
+                  <li><a class="dropdown-item" href="product.html#BLOCKJOINTING">BLOCK JOINTING MORTARS</a></li>
+                  <li><a class="dropdown-item" href="product.html#GROUTS">GROUTS</a></li>
+                  <li><a class="dropdown-item" href="product.html#WATERPROOFING">WATERPROOFING COMPONENTS</a> </li>
+                  <li><a class="dropdown-item" href="product.html#REPAIRANDBONDING">REPAIR AND BONDING’S</a> </li>
+                  <li><a class="dropdown-item" href="product.html#INDUSTRIALGROUT">INDUSTRIAL GROUT AND FLOOR HARDENER</a> </li>
+                  <li><a class="dropdown-item" href="product.html#CUREBOND">CURE BOND WB</a> </li>
+                  <li><a class="dropdown-item" href="product.html#Jeevanjor">JEEVANJOR PRODUCTS</a> </li>
+                </ul>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  Services
+                </a>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="contactus.html">Architectural drawings</a></li>
+                  <li><a class="dropdown-item" href="contactus.html">Structural drawings</a> </li>
+                  <li><a class="dropdown-item" href="product.html">Material contracts </a></li>
+                  <li><a class="dropdown-item" href="contactus.html">Developments</a></li>
+                </ul>
+              </li>
+              
+            </ul>
+            <div style="padding-left: 10%;" class="col social">
+              <ul>
+                <li><a href="https://www.instagram.com/koundinya.constructions/"><img  src="imagefooter/instagram-svgrepo-com.svg" width="32" style="width: 32px;"></a></li>
+                <li style="padding-left: 20px;"><a href="https://www.youtube.com/@koundinyaconstructions"><img src="imagefooter/youtube-svgrepo-com.svg" width="32" style="width: 32px;"></a></li>
+                <li style="padding-left: 20px;"><a href="https://m.facebook.com/people/Koundinya-constructions/100094564905432/"><img  src="imagefooter/facebook-svgrepo-com.svg" width="32" style="width: 32px;"></a></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </nav>
+      <div class="blog-head">
+      <img src="imageshomepage/ammenpur.png" width="100%" height="500px">
+      <h1 class="left-center"> It’s Time for <br /> a Change</h1>
+      <h6 class="left-center-p">Build smarter, stronger, and more sustainable. <br/>
+        start your journey with getting expert insights into,<br/> modern construction techniques with eco-friendly designs.</h2>
+      <button class="left-center-b"> Sign In For Newsletter </button>
+    </div>
+        <center>
+        <h1 class="Tile-blog"> Our Blogs</h1>
+        </center>
+        <div class="blog-main">     
+        <div class="row">
+            <div class="column">
+                <div class="card">
+                    <img src="img_avatar.png" alt="Avatar" style="width:100%">
+                    <div class="container">
+                      <h4><b>Innovations in construction materials (e.g., graphene, 3D-printed materials).</b></h4> 
+                      <a href=""><p class="writer">Subbodh atchutanna</p></a>
+                      <p>Architect & Engineer</p> 
+                      <a href="blogone.html"><button> see more...</button></a>
+                    </div>
+                  </div>
+            </div>
+            <div class="column">
+                <div class="card2">
+                    <img src="img_avatar.png" alt="Avatar" style="width:100%">
+                    <div class="container">
+                      <h4><b>John Doe</b></h4> 
+                      <a href=""><p class="writer">Subbodh atchutanna</p></a>
+                      <p>Architect & Engineer</p> 
+                      <a href=""><button> Coming next week...</button></a>
+                    </div>
+                  </div>
+            </div>
+        </div>
+    </div>
